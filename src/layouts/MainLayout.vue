@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
+    <q-header elevated class="bg-purple">
       <q-toolbar>
         <q-btn
           flat
@@ -12,14 +12,6 @@
         />
 
         <q-toolbar-title> Av. Eduardo Frei Montalva 770 </q-toolbar-title>
-
-        <q-btn
-          color="primary"
-          icon="login"
-          @click="onClick"
-          unelevated
-          to="/login"
-        />
       </q-toolbar>
     </q-header>
 

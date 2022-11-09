@@ -1,6 +1,6 @@
 <template>
   <q-page>
-    <h4 class="text-center text-purple">contacto</h4>
+    <h4 class="text-center text-purple">Contacto</h4>
     <q-card class="bg-purple-1 q-mx-xl">
       <q-card-section>
         <p>
