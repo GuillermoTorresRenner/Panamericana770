@@ -4,7 +4,7 @@
     <q-card class="bg-purple-1 q-mx-xl">
       <q-card-section>
         <p>
-          En esta sección enontrará canales de contacto con la Administración.
+          En esta sección encontrará canales de contacto con la Administración.
         </p>
       </q-card-section>
     </q-card>
@@ -14,7 +14,7 @@
       </h6>
       <q-card-section class="row justify-center">
         <q-btn
-          color="primary"
+          color="purple"
           icon="email"
           label="Enviar Correo"
           @click="go(guille.email)"
@@ -41,7 +41,7 @@
 <script setup>
 const guille = {
   email: "mailto:torresrennerguillermo@gmail.com",
-  what: "https://api.whatsapp.com/send?phone=+56931126146&text=Hola%20Cervecería%20Arcanum!",
+  what: "https://api.whatsapp.com/send?phone=+56931126146&text=Hola%20Administración!",
 };
 function go(what) {
   window.open(what, "_blank");

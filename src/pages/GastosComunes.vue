@@ -5,12 +5,12 @@
     <q-card class="bg-purple-1 q-mx-xl">
       <q-card-section>
         <p>
-          En esta sección enontrará información acerca de los gastos comunes del
-          edificio.
+          En esta sección encontrará información acerca de los gastos comunes
+          del edificio.
         </p>
         <p>
           Se le recuerda que los gastos comunes son el salario del personal de
-          limpieza del edificio y el saldo de compras de insumas para tal fin,
+          limpieza del edificio y el saldo de compras de insumos para tal fin,
           por lo que se implora pagarlos
           <strong>ENTRE EL 1 Y 5 DE CADA MES</strong>
         </p>
@@ -21,7 +21,7 @@
         <p>Puede consultar el estado de los pagos en el siguiente link</p>
         <div class="row justify-center">
           <q-btn
-            color="primary"
+            color="purple"
             icon="ion-eye"
             label="Gastos Comunes"
             @click="go"

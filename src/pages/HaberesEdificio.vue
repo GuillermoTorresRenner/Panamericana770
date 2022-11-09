@@ -5,7 +5,7 @@
     <q-card class="bg-purple-1 q-mx-xl">
       <q-card-section>
         <p>
-          En esta sección enontrará información acerca de los Ingresos del
+          En esta sección encontrará información acerca de los Ingresos del
           edificio por prestaciones del cartel y de los gastos realizados por la
           Administración conforme a lo estipulado en los Estatutos.
         </p>
@@ -19,7 +19,7 @@
         </p>
         <div class="row justify-center">
           <q-btn
-            color="primary"
+            color="purple"
             icon="ion-eye"
             label="Contrato Cartel"
             @click="oops"
@@ -35,7 +35,7 @@
         </p>
         <div class="row justify-center">
           <q-btn
-            color="primary"
+            color="purple"
             icon="ion-eye"
             label="Ingresos y Egresos"
             @click="go"
