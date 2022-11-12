@@ -1,6 +1,6 @@
 <template>
   <q-page>
-    <h6 class="text-center text-purple">Benvenid@ a la web del Edificio</h6>
+    <h4 class="text-center text-purple">Benvenid@ a la web del Edificio</h4>
     <q-card class="bg-purple-1 q-mx-xl">
       <q-card-section>
         <p>
@@ -46,7 +46,13 @@ async function listar() {
   querySnapshot.forEach((doc) => {
     // doc.data() is never undefined for query doc snapshots
     comunicados.value.push(doc.data());
-    console.log(comunicados.value);
+    comunicados.value.sort((a, b) => {
+      if (a.id > b.id) {
+        return -1;
+      } else {
+        return 1;
+      }
+    });
   });
 }
 onMounted(() => {

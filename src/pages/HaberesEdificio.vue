@@ -22,7 +22,7 @@
             color="purple"
             icon="ion-eye"
             label="Contrato Cartel"
-            @click="oops"
+            @click="contrato"
           />
         </div>
       </q-card-section>
@@ -52,6 +52,12 @@ const $q = useQuasar();
 function go() {
   window.open(
     "https://docs.google.com/spreadsheets/d/1JjIy2ApIWBvQVW5FzqHpJm5TekacgUHQO2dqM93s128/edit?usp=sharing",
+    "_blanc"
+  );
+}
+function contrato() {
+  window.open(
+    "https://drive.google.com/file/d/1qBvy_snITdCPLC0GV_s4PhNI5KCdSMZG/view?usp=sharing",
     "_blanc"
   );
 }
