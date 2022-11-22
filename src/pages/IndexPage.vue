@@ -30,7 +30,7 @@
       <q-card-section>
         <h5 class="text-center">{{ c.titulo }}</h5>
         <p class="caption"><strong>Fecha Publicación:</strong> {{ c.fecha }}</p>
-        <p>{{ c.texto }}</p>
+        <div v-html="c.texto"></div>
       </q-card-section>
     </q-card>
   </q-page>
